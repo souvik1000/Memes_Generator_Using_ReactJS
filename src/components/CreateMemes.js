@@ -7,8 +7,8 @@ export default class CreateMemes extends React.Component {
     super();
     this.state = {
       ids: "",
-      username: "souvik1000",
-      password: "souvik1000",
+      username: "Your_ImgFlip_UserName",
+      password: "Your_ImgFlip_PassWord",
       topText: "",
       bottomText: "",
       url: "",
