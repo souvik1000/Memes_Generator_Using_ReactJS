@@ -1,0 +1,60 @@
+.form_div,
+.image_div {
+  text-align: center;
+}
+
+.form_div form input,
+.form_div form button {
+  width: 75%;
+  margin: 5px 0px;
+  padding: 5px 0px;
+  border-radius: 5px;
+}
+
+.form_div form button {
+  margin-top: 20px;
+  width: 76%;
+}
+
+.form_div form {
+  width: 30%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 30px 0px;
+}
+
+.tameplate_link {
+  margin: 30px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #8e00ec;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+  .form_div form h1 {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .form_div form {
+    width: 70%;
+  }
+
+  .form_div form input,
+  .form_div form button {
+    width: 93%;
+    margin: 5px 0px;
+    padding: 5px 0px;
+    border-radius: 5px;
+  }
+
+  .form_div form button {
+    margin-top: 20px;
+    width: 93.5%;
+  }
+}
